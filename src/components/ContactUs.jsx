@@ -14,7 +14,7 @@ export const ContactUs = () => {
     ]
   return (
     <div>
-        <h1>ContactUs</h1>
+        <h1>Contact Us</h1>
         <ul class='navbar-nav mr-auto'>
             <li class="nav-item">
                 <Link to="/contactus/manager">Manager</Link>
