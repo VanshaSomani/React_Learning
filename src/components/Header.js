@@ -6,6 +6,7 @@ export const Header = () => {
         <>
             <div className='header'>
                 <h1>Header</h1>
+                <Link to="/login">Login</Link>
             </div>
             <nav className='navbar navbar-expand-lg navbar-light bg-light'>
                 <button
@@ -29,6 +30,11 @@ export const Header = () => {
                         <li class="navbar-item active">
                             <Link class="nav-link" to="/aboutus">
                                 AboutUs
+                            </Link>
+                        </li>
+                        <li class="navbar-item active">
+                            <Link class="nav-link" to="/contactus">
+                                ContactUs
                             </Link>
                         </li>
                     </ul>
