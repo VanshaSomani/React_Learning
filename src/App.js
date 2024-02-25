@@ -10,6 +10,8 @@ import { Manager } from './components/Manager';
 import { Director } from './components/Director';
 import { ContactUs } from './components/ContactUs';
 import { LoginComponent } from './components/LoginComponent';
+import { StorageData } from './components/StorageData';
+import { GetStorageData } from './components/GetStorageData';
 
 function App() {
   var title = "Royal technosoft";
@@ -26,6 +28,8 @@ function App() {
         <Route path='/contactus/manager' element={<Manager/>}></Route>
         <Route path='/contactus/director/:id' element={<Director/>}></Route>
         <Route path='/login' element={<LoginComponent/>}></Route>
+        <Route path='/storedata' element={<StorageData/>}></Route>
+        <Route path='/getstoredata' element={<GetStorageData/>}></Route>
         
       </Routes>
       </AppContext.Provider>

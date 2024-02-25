@@ -37,6 +37,16 @@ export const Header = () => {
                                 ContactUs
                             </Link>
                         </li>
+                        <li class="navbar-item active">
+                            <Link class="nav-link" to="/storedata">
+                                StoreData
+                            </Link>
+                        </li>
+                        {/* <li class="navbar-item active">
+                            <Link class="nav-link" to="/getstoredata">
+                                GetStoreData
+                            </Link>
+                        </li> */}
                     </ul>
                 </div>
             </nav>
